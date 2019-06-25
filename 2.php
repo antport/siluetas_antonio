@@ -1,9 +1,10 @@
-<a href="3.php"> 
-<img src="./figs/f2.jpg"></img>
-</a>
-
 <?php
 
+$i=2;
 
-
+echo '
+	<a href="'.($i+1).'.php">
+	<img src="./figs/f'.$i.'.jpg"></img>
+	</a>
+';
 ?>
