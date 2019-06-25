@@ -1,12 +1,15 @@
 <?php
 
-$i=3;
+$f=3;
 
-// $i++ => $i=$i+1;
+
+
+
 
 echo '
-	<a href="'.($i+1).'.php">
-	<img src="./figs/f'.$i.'.jpg"></img>
+	<a href="'.($f+1).'.php">
+	<img src="./figs/f'.$f.'.jpg"></img>
 	</a>
+	
 ';
 ?>
